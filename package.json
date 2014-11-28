@@ -4,7 +4,6 @@
   "description": "Cache Firebase for offline use",
   "main": "CachedRef.js",
   "scripts": {
-    "prepublish": "webpack CachedRef.js dist/CachedRef.js --output-library CachedRef --output-library-target var",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
