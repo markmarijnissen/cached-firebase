@@ -1,0 +1,30 @@
+{
+  "name": "cached-firebase",
+  "version": "0.1.0",
+  "homepage": "https://github.com/markmarijnissen/cached-firebase",
+  "authors": [
+    "Mark Marijnissen <markmarijnissen@gmail.com>"
+  ],
+  "description": "Cache Firebase for offlinse use",
+  "main": "dist/CachedRef.js",
+  "keywords": [
+    "firebase",
+    "offline",
+    "localStorage",
+    "cache"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "localforage": "~1.2.0",
+    "lodash": "~2.4.1",
+    "firebase": "~2.0.5",
+    "promiscuous": "~0.6.0"
+  }
+}
